@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MyDictionary
 {
-    class MyDictionary<tKey, tValue>
+    class MyDictionary<tKey, tValue>: Dictionary<tKey,tValue>
     {
         tKey[] keys;
         tValue[] values;
