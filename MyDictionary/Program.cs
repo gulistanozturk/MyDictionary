@@ -11,9 +11,10 @@ namespace MyDictionary
             books.Add(30, "Google Sırları");
             books.Add(200, "Clean Code");
 
-            Console.WriteLine("Kitap Fiyatı : " + books.Keys[0] + "\t" + "Kitabın Adı : " + books.Values[0]);
-            Console.WriteLine("Kitap Fiyatı : " + books.Keys[1] + "\t" + "Kitabın Adı : " + books.Values[1]);
-            Console.WriteLine("Kitap Fiyatı : " + books.Keys[2] + "\t" + "Kitabın Adı : " + books.Values[2]);
+           foreach (KeyValuePair<int, string> book in books)
+            {
+                Console.WriteLine("Kitap Fiyatı : = {0}, Kitabın Adı : = {1}", book.Key, book.Value);
+            }
         }
 
 
