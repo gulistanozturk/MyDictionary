@@ -10,6 +10,8 @@ namespace MyDictionary
             books.Add(50, "Elon Musk ");
             books.Add(30, "Google Sırları");
             books.Add(200, "Clean Code");
+            books.Add(55,"Yapay Öğrenme");
+            books.Add(40,"Robotların Yükselişi");
 
            foreach (KeyValuePair<int, string> book in books)
             {
